@@ -4,9 +4,8 @@ Install the bicep-langserver for Helix
 # Installation
 
 Run the following PowerShell command with administrative priveleges.
-```PowerShell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https://raw.githubusercontent.com/welbornt/Install-BicepLangServer/refs/heads/main/Install-BicepLangServer.ps1 | Invoke-Expression```
+`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://raw.githubusercontent.com/welbornt/Install-BicepLangServer/refs/heads/main/Install-BicepLangServer.ps1 | Invoke-Expression`
 
 Alternatively, you can download the script and run it locally to use the below optional params:
 
