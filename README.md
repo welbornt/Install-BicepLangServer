@@ -22,3 +22,4 @@ The default download location is in the users temporary directory with `[System.
   
 # Validate the language server via Helix
 `hx --health | grep bicep`
+Note: On Windows you will need to start a new shell session for the path to update so that Helix can find the language server.
